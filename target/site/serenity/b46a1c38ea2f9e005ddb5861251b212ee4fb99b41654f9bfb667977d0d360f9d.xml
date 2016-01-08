@@ -1,0 +1,42 @@
+<acceptance-test-run title="Searching by keyword apple should display the corresponding article" name="searching_by_keyword_apple_should_display_the_corresponding_article" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="4509" timestamp="2016-01-08T14:18:44.979+02:00">
+  <user-story id="com.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.features.search"/>
+  <issues>
+    <issue>#WIKI-1</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="740">
+    <screenshots>
+      <screenshot image="2a6a0cfa5c4a004472b5c099e00047de.png"/>
+      <screenshot image="075b4bb5f233ed62c02958fea90564a8.png"/>
+    </screenshots>
+    <description>Is the home page</description>
+  </test-step>
+  <test-group name="Looks for: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5a92130d1f8ba40bb8448c751e0d4db4.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="597">
+      <screenshots>
+        <screenshot image="eb98a60abadb2fe01e942b54e778c2ec.png"/>
+      </screenshots>
+      <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;apple&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1673">
+      <screenshots>
+        <screenshot image="eb98a60abadb2fe01e942b54e778c2ec.png"/>
+        <screenshot image="389a9b81a310751ceb1dba459e3d7f98.png"/>
+      </screenshots>
+      <description>Starts search</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="822">
+    <screenshots>
+      <screenshot image="5a92130d1f8ba40bb8448c751e0d4db4.png"/>
+    </screenshots>
+    <description>Should see definition: &lt;span class=&apos;step-parameter&apos;&gt;A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

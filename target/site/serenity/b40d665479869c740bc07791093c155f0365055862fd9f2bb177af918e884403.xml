@@ -1,0 +1,38 @@
+<acceptance-test-run title="Searching by keyword banana should display the corresponding article" name="searching_by_keyword_banana_should_display_the_corresponding_article" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="7751" timestamp="2016-01-08T14:18:37.181+02:00">
+  <user-story id="com.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="3607">
+    <screenshots>
+      <screenshot image="075b4bb5f233ed62c02958fea90564a8.png"/>
+    </screenshots>
+    <description>Is the home page</description>
+  </test-step>
+  <test-group name="Looks for: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="2a6a0cfa5c4a004472b5c099e00047de.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="566">
+      <screenshots>
+        <screenshot image="422099d2a4fdddb8602b9083e58ec4d7.png"/>
+      </screenshots>
+      <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="1719">
+      <screenshots>
+        <screenshot image="b93b9fdc2c69e17b439fe3fe6ce2afea.png"/>
+        <screenshot image="4367494f4e1319741ae7d7c7203fcc87.png"/>
+      </screenshots>
+      <description>Starts search</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="417">
+    <screenshots>
+      <screenshot image="2a6a0cfa5c4a004472b5c099e00047de.png"/>
+    </screenshots>
+    <description>Should see definition: &lt;span class=&apos;step-parameter&apos;&gt;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
