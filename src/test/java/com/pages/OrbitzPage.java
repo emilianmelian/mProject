@@ -27,6 +27,7 @@ public class OrbitzPage extends PageObject {
 	
 	public void accesWebSite(){
 		/*
+	    hitgub 
 		System.setProperty("webdriver.chrome.driver", "F:\\chromedriver.exe"); 
 		WebDriver driver = new ChromeDriver();
 		
