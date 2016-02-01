@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.features.search.WizzTest" skipped="0" tests="1" time="0.31" timestamp="2016-01-14 04:18:50"><testcase classname="com.features.search.WizzTest" name="Go through navigation commands"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.steps.serenity.WizzSteps.grabCity(WizzSteps.java:12)&#13;
+com.features.search.WizzTest.go_through_navigation_commands(WizzTest.java:26)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,14 @@
+<acceptance-test-run title="Go through navigation commands" name="go_through_navigation_commands" steps="1" successful="0" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="310" timestamp="2016-01-14T16:18:50.540+02:00">
+  <user-story id="com.features.search.WizzTest" name="Wizz test" path="com.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Wizz test" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="49">
+    <description>Grab city</description>
+    <error>java.lang.NullPointerException</error>
+    <exception>java.lang.NullPointerException:null&#xd;
+[com.steps.serenity.WizzSteps.grabCity(WizzSteps.java:12), com.features.search.WizzTest.go_through_navigation_commands(WizzTest.java:26), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+  </test-step>
+</acceptance-test-run>

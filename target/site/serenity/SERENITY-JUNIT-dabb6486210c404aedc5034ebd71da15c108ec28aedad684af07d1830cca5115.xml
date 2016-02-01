@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.features.search.SearchByKeywordStory" skipped="0" tests="1" time="0.16" timestamp="2016-01-11 09:50:52"><testcase classname="com.features.search.SearchByKeywordStory" name="Check male and female radio button"><error message="java.lang.Error: Unresolved compilation problem: &#10;&#9;The method getDefinitions() is undefined for the type DictionaryPage&#10;" type="net.thucydides.core.webdriver.WebdriverAssertionError">java.lang.Error: Unresolved compilation problem: 
+	The method getDefinitions() is undefined for the type DictionaryPage
+</error><system-err>java.lang.Error: Unresolved compilation problem: 
+	The method getDefinitions() is undefined for the type DictionaryPage
+&#13;
+com.steps.serenity.EndUserSteps.letsseeitworks(EndUserSteps.java:21)&#13;
+com.features.search.SearchByKeywordStory.check_male_and_female_radio_button(SearchByKeywordStory.java:28)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+</system-err></testcase></testsuite>

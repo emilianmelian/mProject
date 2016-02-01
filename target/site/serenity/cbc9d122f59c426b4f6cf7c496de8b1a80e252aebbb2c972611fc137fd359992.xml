@@ -1,0 +1,22 @@
+<acceptance-test-run title="Go through navigation commands" name="go_through_navigation_commands" steps="2" successful="2" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="42370" timestamp="2016-01-20T14:39:07.328+02:00">
+  <user-story id="com.features.search.OrbitzTestPage" name="Orbitz test page" path="com.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Orbitz test" type="story"/>
+    <tag name="Search/Orbitz test page" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="11742">
+    <screenshots>
+      <screenshot image="c7fc35c439b608addf2ebc278fdc6ea4.png"/>
+    </screenshots>
+    <description>Acces page2</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14909">
+    <screenshots>
+      <screenshot image="4f09d50f91eb9a60c21ff202da983eb9.png"/>
+      <screenshot image="59fc1a4eb20789e055f85980c8f11a27.png"/>
+    </screenshots>
+    <description>Select month2: &lt;span class=&apos;step-parameter&apos;&gt;Feb 2016, 15&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

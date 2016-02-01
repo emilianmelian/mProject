@@ -1,0 +1,21 @@
+<acceptance-test-run title="Check male and female radio button" name="check_male_and_female_radio_button" steps="1" successful="0" failures="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="163" timestamp="2016-01-11T09:50:52.360+02:00">
+  <user-story id="com.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.features.search"/>
+  <issues>
+    <issue>#WIKI-1</issue>
+  </issues>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="FAILURE" duration="40">
+    <description>Letsseeitworks</description>
+    <error>net.thucydides.core.webdriver.WebdriverAssertionError: java.lang.Error: Unresolved compilation problem: 
+	The method getDefinitions() is undefined for the type DictionaryPage
+</error>
+    <exception>net.thucydides.core.webdriver.WebdriverAssertionError:java.lang.Error: Unresolved compilation problem: 
+	The method getDefinitions() is undefined for the type DictionaryPage
+&#xd;
+[com.steps.serenity.EndUserSteps.letsseeitworks(EndUserSteps.java:21), com.features.search.SearchByKeywordStory.check_male_and_female_radio_button(SearchByKeywordStory.java:28), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+  </test-step>
+</acceptance-test-run>

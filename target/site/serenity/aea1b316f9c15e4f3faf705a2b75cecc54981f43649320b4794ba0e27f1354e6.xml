@@ -1,0 +1,14 @@
+<acceptance-test-run title="Do some commands" name="do_some_commands" steps="1" successful="1" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="13371" timestamp="2016-01-13T12:53:52.913+02:00">
+  <user-story id="com.features.search.SimpleTest" name="Simple test" path="com.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Simple test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="12638">
+    <screenshots>
+      <screenshot image="94c2f2eec94b0b8edf6e0ecf8203de11.png"/>
+    </screenshots>
+    <description>Acces page</description>
+  </test-step>
+</acceptance-test-run>

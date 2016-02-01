@@ -1,0 +1,14 @@
+<acceptance-test-run title="Check male and female radio button" name="check_male_and_female_radio_button" steps="1" successful="0" failures="0" errors="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="142" timestamp="2016-01-08T16:17:21.293+02:00">
+  <user-story id="com.features.search.CheckElementsTest" name="Check elements test" path="com.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Check elements test" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="16">
+    <description>Click female</description>
+    <error>java.lang.NullPointerException</error>
+    <exception>java.lang.NullPointerException:null&#xd;
+[com.steps.serenity.CheckRadioButtonSteps.clickFemale(CheckRadioButtonSteps.java:20), com.features.search.CheckElementsTest.check_male_and_female_radio_button(CheckElementsTest.java:29), org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86), org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382), org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)]</exception>
+  </test-step>
+</acceptance-test-run>

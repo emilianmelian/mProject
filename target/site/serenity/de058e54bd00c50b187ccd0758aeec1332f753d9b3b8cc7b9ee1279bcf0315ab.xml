@@ -1,0 +1,28 @@
+<acceptance-test-run title="Go through navigation commands" name="go_through_navigation_commands" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="33170" timestamp="2016-01-20T09:53:35.169+02:00">
+  <user-story id="com.features.search.OrbitzTest" name="Orbitz test" path="com.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Orbitz test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="15253">
+    <screenshots>
+      <screenshot image="75f4e8babf0af21ee75ad15a24317b89.png"/>
+    </screenshots>
+    <description>Grab city</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="10824">
+    <screenshots>
+      <screenshot image="ef2b9ced41af43d8ea459e9c379a0f0a.png"/>
+      <screenshot image="4fc1948389a79a6bb3ded84d57ee1deb.png"/>
+    </screenshots>
+    <description>Select month1: &lt;span class=&apos;step-parameter&apos;&gt;February, 23&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="6396">
+    <screenshots>
+      <screenshot image="ceb00aa191e3d6aa2f3a8e8eadc4aeb3.png"/>
+      <screenshot image="cf05cd255f58f545f7b822f9efb7d1a9.png"/>
+    </screenshots>
+    <description>Select month2: &lt;span class=&apos;step-parameter&apos;&gt;February, 26&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
